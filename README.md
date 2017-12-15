@@ -30,6 +30,7 @@ Note: All API keys are included with the main code file and no action is require
 * Installation Requirements: 'requirements.txt'
 * DB Config: config.py
 * Folder: RR_Emails (contains emails from subscription service)
+* Three pictures and a movie of execution
 
 
 ## What Should Happen
@@ -41,7 +42,7 @@ Note: All API keys are included with the main code file and no action is require
 5. If problems are encountered anywhere above, print statements should make you aware of the problem.
 6. If it is not trading hours, you will be told so. If it is trading hours, the app will scrape yahoo finance for current prices (Note: Yahoo Finance uses React, which made scraping very difficult. My parsing functions are interesting)
 7. The app will then check if there is a cache file, and if there is, check if it has today's date. If there is no cache file or if today's date is not within it, it will save the updated cache.
-8. The final section will then SELECT data from the database and display it in a Flask app along with some of the other data pulled/created at 'http://localhost:5000/stocks'.  (watch the movie Execution.MOV to see the above actions)
+8. The final section will then SELECT data from the database and display it in a Flask app along with some of the other data pulled/created at 'http://localhost:5000/stocks'.  (watch the movie Execution.MOV to see the above actions, or look at the three included pictures)
 
 
 ## Major Challenges Encountered
